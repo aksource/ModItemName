@@ -15,8 +15,7 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 
-@Mod(modid="ModifierItemName", name="ModifierItemName", version="1.0-universal",dependencies="required-after:FML")
-//@NetworkMod(clientSideRequired=true, serverSideRequired=false)
+@Mod(modid="ModifierItemName", name="ModifierItemName", version="1.0-universal",dependencies="required-after:FML", useMetadata = true)
 
 public class ModifierItemName
 {
